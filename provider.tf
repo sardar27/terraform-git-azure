@@ -5,4 +5,14 @@ terraform {
       version = "=3.0.0"
     }
   }
-}  
+}
+
+
+provider "azurerm" {
+  features {}
+
+  #client_id       = ""
+  #client_secret   = ""
+  #tenant_id       = ""
+  #subscription_id = ""
+}
